@@ -61,6 +61,7 @@
             // 
             // panelLOGO
             // 
+            this.panelLOGO.BackColor = System.Drawing.Color.Azure;
             this.panelLOGO.Controls.Add(this.pictureBox1);
             this.panelLOGO.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLOGO.Location = new System.Drawing.Point(0, 0);
@@ -86,7 +87,7 @@
             this.MediaBTN.FlatAppearance.BorderSize = 0;
             this.MediaBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MediaBTN.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MediaBTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.MediaBTN.ForeColor = System.Drawing.Color.SteelBlue;
             this.MediaBTN.Location = new System.Drawing.Point(0, 125);
             this.MediaBTN.Margin = new System.Windows.Forms.Padding(4);
             this.MediaBTN.Name = "MediaBTN";
@@ -100,7 +101,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.panel1.BackColor = System.Drawing.Color.PowderBlue;
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -117,7 +118,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.ForeColor = System.Drawing.Color.Teal;
             this.button4.Location = new System.Drawing.Point(0, 135);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -133,7 +134,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.ForeColor = System.Drawing.Color.Teal;
             this.button3.Location = new System.Drawing.Point(0, 90);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -149,7 +150,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.ForeColor = System.Drawing.Color.Teal;
             this.button2.Location = new System.Drawing.Point(0, 45);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -165,7 +166,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.ForeColor = System.Drawing.Color.Teal;
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -181,7 +182,7 @@
             this.PlaylistBTN.FlatAppearance.BorderSize = 0;
             this.PlaylistBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PlaylistBTN.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlaylistBTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.PlaylistBTN.ForeColor = System.Drawing.Color.SteelBlue;
             this.PlaylistBTN.Location = new System.Drawing.Point(0, 344);
             this.PlaylistBTN.Margin = new System.Windows.Forms.Padding(4);
             this.PlaylistBTN.Name = "PlaylistBTN";
@@ -195,7 +196,7 @@
             // 
             // PlaylistSUBMENU
             // 
-            this.PlaylistSUBMENU.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.PlaylistSUBMENU.BackColor = System.Drawing.Color.PowderBlue;
             this.PlaylistSUBMENU.Controls.Add(this.button6);
             this.PlaylistSUBMENU.Controls.Add(this.button7);
             this.PlaylistSUBMENU.Controls.Add(this.button8);
@@ -212,7 +213,7 @@
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.ForeColor = System.Drawing.Color.Teal;
             this.button6.Location = new System.Drawing.Point(0, 135);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -228,7 +229,7 @@
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button7.ForeColor = System.Drawing.Color.Teal;
             this.button7.Location = new System.Drawing.Point(0, 90);
             this.button7.Name = "button7";
             this.button7.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -244,7 +245,7 @@
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button8.ForeColor = System.Drawing.Color.Teal;
             this.button8.Location = new System.Drawing.Point(0, 45);
             this.button8.Name = "button8";
             this.button8.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -260,7 +261,7 @@
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button9.ForeColor = System.Drawing.Color.Teal;
             this.button9.Location = new System.Drawing.Point(0, 0);
             this.button9.Name = "button9";
             this.button9.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -276,7 +277,7 @@
             this.SettingsBTN.FlatAppearance.BorderSize = 0;
             this.SettingsBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SettingsBTN.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SettingsBTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.SettingsBTN.ForeColor = System.Drawing.Color.SteelBlue;
             this.SettingsBTN.Location = new System.Drawing.Point(0, 563);
             this.SettingsBTN.Margin = new System.Windows.Forms.Padding(4);
             this.SettingsBTN.Name = "SettingsBTN";
@@ -290,7 +291,7 @@
             // 
             // SettingsSUBMENU
             // 
-            this.SettingsSUBMENU.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.SettingsSUBMENU.BackColor = System.Drawing.Color.PowderBlue;
             this.SettingsSUBMENU.Controls.Add(this.button11);
             this.SettingsSUBMENU.Controls.Add(this.button12);
             this.SettingsSUBMENU.Controls.Add(this.button13);
@@ -307,7 +308,7 @@
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button11.ForeColor = System.Drawing.Color.Teal;
             this.button11.Location = new System.Drawing.Point(0, 135);
             this.button11.Name = "button11";
             this.button11.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -323,7 +324,7 @@
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button12.ForeColor = System.Drawing.Color.Teal;
             this.button12.Location = new System.Drawing.Point(0, 90);
             this.button12.Name = "button12";
             this.button12.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -339,7 +340,7 @@
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button13.ForeColor = System.Drawing.Color.Teal;
             this.button13.Location = new System.Drawing.Point(0, 45);
             this.button13.Name = "button13";
             this.button13.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -355,7 +356,7 @@
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button14.ForeColor = System.Drawing.Color.Teal;
             this.button14.Location = new System.Drawing.Point(0, 0);
             this.button14.Name = "button14";
             this.button14.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -371,7 +372,7 @@
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button10.ForeColor = System.Drawing.Color.SteelBlue;
             this.button10.Location = new System.Drawing.Point(0, 782);
             this.button10.Margin = new System.Windows.Forms.Padding(4);
             this.button10.Name = "button10";
@@ -385,7 +386,7 @@
             // panelSIDEBAR
             // 
             this.panelSIDEBAR.AutoScroll = true;
-            this.panelSIDEBAR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.panelSIDEBAR.BackColor = System.Drawing.Color.Azure;
             this.panelSIDEBAR.Controls.Add(this.button10);
             this.panelSIDEBAR.Controls.Add(this.SettingsSUBMENU);
             this.panelSIDEBAR.Controls.Add(this.SettingsBTN);
@@ -405,16 +406,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(942, 553);
             this.Controls.Add(this.panelSIDEBAR);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.Teal;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Media Player";
-            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.TransparencyKey = System.Drawing.Color.Transparent;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelLOGO.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
