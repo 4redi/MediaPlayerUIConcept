@@ -18,6 +18,8 @@ namespace MediaPlayerUIConcept
             DesignForm();
             
         }
+
+        #region SubMenuFunctions
         private void DesignForm()
         {
             panel1.Visible = false;
@@ -43,28 +45,86 @@ namespace MediaPlayerUIConcept
             {
                 panels.Visible=false;
             }
-
-
         }
-
-        private void MediaBTN_Click(object sender, EventArgs e)
-        {
-            ShowPanel(panel1);
-        }
+        #endregion
+        #region ShowButtons
 
         private void PlaylistBTN_Click(object sender, EventArgs e)
         {
             ShowPanel(PlaylistSUBMENU);
         }
+        private void MediaBTN_Click(object sender, EventArgs e)
+        {
+            ShowPanel(panel1);
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
         private void SettingsBTN_Click(object sender, EventArgs e)
         {
             ShowPanel(SettingsSUBMENU);
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
+        #endregion
+
+
+
+
     }
 }
+
