@@ -122,7 +122,19 @@ namespace MediaPlayerUIConcept
         }
         #endregion
 
-
+        private Form activeForm = null;
+        private void OpenChildForm(Form childForm)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+                activeForm = childForm;
+                childForm.TopLevel = false;
+                childForm.FormBorderStyle=FormBorderStyle.None;
+                childForm.Dock = DockStyle.Fill;
+                panelChildForm.Controls.Add(childForm);
+            }
+        }
 
 
     }
