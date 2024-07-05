@@ -51,14 +51,14 @@
             this.button14 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.panelSIDEBAR = new System.Windows.Forms.Panel();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.panelChildForm = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.panelLOGO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.PlaylistSUBMENU.SuspendLayout();
             this.SettingsSUBMENU.SuspendLayout();
             this.panelSIDEBAR.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelLOGO
@@ -412,20 +412,30 @@
             this.panelSIDEBAR.Location = new System.Drawing.Point(0, 0);
             this.panelSIDEBAR.Margin = new System.Windows.Forms.Padding(4);
             this.panelSIDEBAR.Name = "panelSIDEBAR";
-            this.panelSIDEBAR.Size = new System.Drawing.Size(312, 553);
+            this.panelSIDEBAR.Size = new System.Drawing.Size(312, 606);
             this.panelSIDEBAR.TabIndex = 0;
             // 
-            // guna2CirclePictureBox1
+            // guna2GradientPanel1
             // 
-            this.guna2CirclePictureBox1.Image = global::MediaPlayerUIConcept.Properties.Resources.logo_Rho;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(448, 87);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(355, 330);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.guna2CirclePictureBox1.TabIndex = 1;
-            this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.MidnightBlue;
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(312, 433);
+            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
+            this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(638, 173);
+            this.guna2GradientPanel1.TabIndex = 1;
+            // 
+            // panelChildForm
+            // 
+            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelChildForm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panelChildForm.FillColor2 = System.Drawing.Color.MidnightBlue;
+            this.panelChildForm.Location = new System.Drawing.Point(312, 0);
+            this.panelChildForm.Name = "panelChildForm";
+            this.panelChildForm.ShadowDecoration.Parent = this.panelChildForm;
+            this.panelChildForm.Size = new System.Drawing.Size(638, 433);
+            this.panelChildForm.TabIndex = 2;
             // 
             // Form1
             // 
@@ -433,8 +443,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(942, 553);
-            this.Controls.Add(this.guna2CirclePictureBox1);
+            this.ClientSize = new System.Drawing.Size(950, 606);
+            this.Controls.Add(this.panelChildForm);
+            this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.panelSIDEBAR);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Teal;
@@ -451,7 +462,6 @@
             this.PlaylistSUBMENU.ResumeLayout(false);
             this.SettingsSUBMENU.ResumeLayout(false);
             this.panelSIDEBAR.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -479,7 +489,8 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Panel panelSIDEBAR;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private Guna.UI2.WinForms.Guna2GradientPanel panelChildForm;
     }
 }
 
